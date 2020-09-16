@@ -23,27 +23,27 @@ export default App;
 
 
 
-class Dog {
-  constructor() {
-    this.sound = 'wwof'
-  }
-  talk() {
-    console.log(this.sound)
-  }
-}
+// class Dog {
+//   constructor() {
+//     this.sound = 'wwof'
+//   }
+//   talk() {
+//     console.log(this.sound)
+//   }
+// }
 
-const sniffles = new Dog()
-sniffles.talk() // 'woof'
+// const sniffles = new Dog()
+// sniffles.talk() // 'woof'
 
 
-// functional componenet (or facotory function that creates class)
+// // functional componenet (or facotory function that creates class)
 
-const dog = () => {
-  const sound = 'woof'
-  return {
-    talk: () => console.log(sound)
-  }
-}
+// const dog = () => {
+//   const sound = 'woof'
+//   return {
+//     talk: () => console.log(sound)
+//   }
+// }
 
-const sniffles = dog()
-sniffles.talk() // 'woof'
+// const sniffles = dog()
+// sniffles.talk() // 'woof'
